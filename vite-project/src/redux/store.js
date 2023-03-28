@@ -7,5 +7,5 @@ import AllReducer from './allreducer'
 
 const store = createStore(AllReducer, applyMiddleware(thunk));
 
-
+// add
 export { store };
